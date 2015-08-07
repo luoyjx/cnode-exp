@@ -2,10 +2,13 @@
   "name": "cnode-exp",
   "version": "0.0.1",
   "description": "export topic collections from cnodejs.org",
-  "main": "index.js",
+  "main": "./lib/cnode-exp.js",
   "bin": {
     "cnode-exp" : "./bin/cli.js"
   },
+  "engines": {
+  "node": ">=0.10.x"
+},
   "scripts": {
     "test": "node ./bin/cli.js luoyjx"
   },
