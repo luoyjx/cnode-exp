@@ -1,5 +1,6 @@
 # cnode-exp
 导出cnode社区中某个用户的文章收藏
+默认导出txt格式，可选导出markdown格式
 
 # why this
 貌似社区的收藏功能要慢慢砍掉了
