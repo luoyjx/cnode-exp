@@ -1,0 +1,31 @@
+{
+  "name": "cnode-exp",
+  "version": "0.0.1",
+  "description": "export topic collections from cnodejs.org",
+  "main": "index.js",
+  "bin": {
+    "cnode-exp" : "./bin/cli.js"
+  },
+  "scripts": {
+    "test": "node ./bin/cli.js luoyjx"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/luoyjx/cnode-exp.git"
+  },
+  "keywords": [
+    "cnode",
+    "export"
+  ],
+  "author": "luoyjx <yjk99@qq.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/luoyjx/cnode-exp/issues"
+  },
+  "homepage": "https://github.com/luoyjx/cnode-exp#readme",
+  "dependencies": {
+    "cheerio": "^0.19.0",
+    "commander": "^2.8.1",
+    "request": "^2.60.0"
+  }
+}
