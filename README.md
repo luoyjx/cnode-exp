@@ -1,4 +1,6 @@
 # cnode-exp
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/luoyjx/cnode-exp.svg)](https://greenkeeper.io/)
 导出cnode社区中某个用户的文章收藏
 默认导出txt格式，可选导出markdown格式
 
